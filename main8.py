@@ -8,12 +8,12 @@ utils.clear()                       # clear the screen
 
 print('Greetings!')
 color = ''
-while (color != 'red'):
-    color = input("What is my favorite color? ")
-    color = color.lower().strip()
-    if (color == 'red'):
-        print('Correct!')
-    elif (color == 'pink'):
-        print('Close!')
-    else:
-        print('Sorry, try again.')
+color = input("What is my favorite color? ")
+while (color != 'red'):  
+ color = color.lower().strip()
+ if (color == 'red'):
+     print('Correct!')
+ elif (color == 'pink'):
+     print('Close!')
+ else:
+      print('Sorry, try again.')

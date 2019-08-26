@@ -1,69 +1,69 @@
 Open main1.py. Before running it, what do you expect this program to do? 
 I expect this program to check if we are running Python 3.7, clear the UI, print "Greeetings!", and print "What is my favourite color?" allowing a space for an input after.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-The Terminal appeared. "Greetings!" was printed on the screen
+The Terminal appeared. "Greetings!" was printed on the screen and then on the line under it printed "What is my favourite color?" and allowed for an input by clicking ont eh space after it with my cursor.
 What do you think the program did with what you typed?
-
+I do not think the program did anything with what I typed because there was no further commands after the input message. 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+This program is different because it assigns the variable color to be equal to the input given after "What is my favourite color?". The program then will output the user input to thr question "What is your favourite color?".
 What do you think the color = input() will do? 
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+Yes
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+This new program now checks if the input is equal to Red then it prints Correct. If the input is different from "Red" then it will print "Sorry, try again.". 
 What is happening on lines 11–14? 
-
+There is an if else statement in which the program checks if the variable color or input is equal to Red or if the input is anything else. If it is Red it will print "Correct!" and if it is anything other than Red it will print, "Sorry, try again.".
 Why are lines 12 and 14 indented? 
-
+They are subordinate code in the individual if and else satements.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+The program will say "Sorry, try again.".
 What does this tell you about "color"?
-
+The variable color/the input is case sensitive.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+This program now identifies Red and red as correct answers to the input question.
 What problem is this trying to solve? 
-
+This is trying to solve the problem of persons entering an uncapitalized correct response to the input question.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+The program prints "Sorry, try again." which means that each individual character is case sensitive and only two versions of the input word red or Red are accounted for as correct answers.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I expect line 11 to automatically make the input lowercase when the program checks the input.
 What problem is it trying to solve? 
-
+This is trying to solve all problems with case sensitivity by just making all inputs lowercase. 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+This prompts the "Sorry, try again." response
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+There is now a .strip() after the .lower(). which likely removes spaces frombefore and after the response only leaving the input letters.
 What would you guess .strip() is doing? 
-
+This likely removes the spaces from before and after the response only leaving the input letters fro the program to check. 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+We could write red in another language. 
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+Thi program will print "Close!" if the input is pink . 
 What is the purpose of line 11? 
-
+The color varialbe was made to be equal to color.lower().strip() which will likely apply the same constraints on the input response.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+The purpose of line 11 is to repeat the question "What is my favourite color?" until the input is equal to red
 Why are lines 12–19 indented? 
-
+They are subordinate to the While statement
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+This would not reprint the question and provide the user input again if the input was not equal to red.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
