@@ -55,3 +55,5 @@ The grading criteria will be as follows:
 * [8] Accomplishes the objective of the exercise
 
 10 points total
+
+I am learning about using GitHub, Canvas, and Visual Studio Code. I am learning about the way to structure code and proper syntax. I am learning about while, if, else, or, elif statements. I am learning about working around problems with inputs in which the inputs are case sensitive with .lower() or spaced oddly with .script(). I am learning about using a set of variables to set a variable equal to and randomy pick one of those variables in the set for the origianl varialbe to be set equal to with teh color and color_match. I am also hopefully learning how to correctly fill out the Repositiory README.md, upload this back to GitHub, and to upload this to Canvas!
